@@ -1,0 +1,78 @@
+body{
+    background-color: #17202A ;
+}
+
+#Register{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    background:none;
+    border: 3px solid #566573;
+    width: 400px;
+    transform: translateX(90%);
+}
+
+header h1{
+    text-align: center;
+    color: #566573;
+}
+
+section{
+    width: 320px;
+    border-radius: 2px;
+    background-color: #2C3E50 ;
+    padding: 20px;
+    transform: translateX(110%);
+    border: 2px solid rgb(62, 183, 231);
+}
+
+section font{
+    font-size: 25px;
+    font-family: Copperplate Gothic ;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.Info input{
+    border: none;
+    background: none;
+    outline: none;
+    margin-bottom: 10px;
+    color: rgb(177, 217, 255);
+    width: 80%;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(3, 182, 253, 0.863);
+}
+
+.Gen{
+    color: rgb(0, 0, 0);
+}
+
+.buttn{
+    width: 320px;
+    height: 30px;
+}
+
+.btn{
+    border-radius: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(3, 182, 253, 0.863);
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.4s linear;
+}
+
+.btn:hover{
+    color: rgba(3, 182, 253, 0.863);
+    background: #2874A6;   
+}

@@ -1,0 +1,122 @@
+﻿body{
+    background-color: #1B4F72;
+}
+#Homepage{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    padding: 10px;
+    height: 110px;
+    background-color: #2874A6;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+header h2{
+    float:left;
+    font-size: 50px;
+}
+header ul{
+    list-style:none;
+    float:right;
+    margin-top: 90px;
+}
+header ul li{
+    display:inline;
+    margin-left:10px;
+}
+header a{
+    color: brown;
+    text-decoration:none;
+    font-family:Arial;
+}
+header a:hover{
+    color:black;
+    text-decoration:underline;
+}
+/* This is the start of the section */
+section{
+    border: 1px solid black;
+}
+.Registration-Part{
+    width: 99%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #2E86C1;
+    display: grid;
+    grid-template-areas: 'a1 a2';
+    gap: 5px;
+    padding: 5px;
+}
+.Registration-Part div{
+    background-color: indigo;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Registration-Part img{
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.part2{
+    text-align: center;
+}
+.part2 a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.part2 a:hover{
+    color: red;
+}
+.Original-Part{
+    float:left;
+    padding:15px;
+    margin-right:10px;
+    margin-bottom:10px;
+    width: 1168px;
+    background-color:#2E86C1;
+    border-radius:5px;
+}
+.index-post{
+    height:170px;
+    margin-top:20px;
+}
+.index-post img{
+    float:left;
+    border:1px solid black;
+    padding:5px;
+    margin-right:10px;
+    width:150px;
+    height:150px;
+}
+.index-post a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+footer{
+    clear:both;
+    padding:5px;
+    background-color:#2874A6;
+    border-radius:2px;
+    border: 1px solid black;
+}
+footer ul{
+    list-style:none;
+    text-align: center;
+    margin:0;
+}
+footer ul li{
+    display:inline;
+    margin-right:20px;
+}
+footer a{
+    text-decoration:none;
+    color:cornflowerblue;
+    font-size:20px;
+}
+footer a:hover{
+    color:black;
+}
